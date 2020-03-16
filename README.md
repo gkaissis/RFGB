@@ -1,5 +1,7 @@
 # Ensemble Models for S.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gkaissis/RFGB/master?filepath=RFGB.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gkaissis/RFGB/blob/master/RFGB.ipynb)
+
+Hint: Try the GPU runtime! JAX runs the autograd on GPU as well!
 
 Random Forests and Gradient Boosting Machines from Scratch. Companion repo to https://gkaissis.github.io/RFGB/
