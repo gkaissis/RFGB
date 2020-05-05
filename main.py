@@ -168,7 +168,7 @@ class GradientBoosting:
             y_pred -= self.learning_rate * estimator.predict(X)
 
         if not self.regression:
-            return np.where(np.exp(y_pred) > 1, 1, 0)
+            return np.where(1/(1 + np.exp(-y_pred))>.5, 1, 0)
         return y_pred
 
 
